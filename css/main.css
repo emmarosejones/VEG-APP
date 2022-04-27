@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 2.75rem;
+	letter-spacing: 1px;
+	color:#6CC16F;
+
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: 1px;
+	color:#6CC16F;
+	text-align: left;
+	}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	font-style: italic;
+	color:#f4743b;
+	text-align: left;
+
+}
+
+p{	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+header{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	place-items:center;
+	padding: .75rem;
+}
+
+header a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	color:#6CC16F;
+}
+
+.matos img{
+	rotate:180deg;
+	height: 630px;
+	margin-top: -10rem;
+}
+
+header img{
+	height: 150px;
+}
+
+header p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 1.75rem;
+	letter-spacing: 1px;
+	color:#f4743b;
+}
+
+.mainimg{
+	padding: 2rem;
+	display: grid;
+	place-items:center;
+	background: rgb(163,219,186);
+background: linear-gradient(351deg, rgba(163,219,186,1) 0%, rgba(108,193,111,1) 100%);
+}
+
+.mainimg img{
+	height:600px;
+	border-radius:30px;
+}
+
+.summary{
+	margin-top: -20rem;
+	display: grid;
+	place-items:center;
+	padding: 4rem;
+	text-align: left;
+}
+
+.problem{
+	display: grid;
+	grid-gap:3rem;
+	padding: 6rem;
+	text-align: center;
+}
+
+.egg img{
+	rotate:180deg;
+	height: 300px;
+}
+
+.summary h2{
+	text-align: left;
+}
+
+.problem h2{
+	text-align: left;
+}
+
+.problem p{
+	padding: 2rem;
+}
+
+.summary p{
+	padding: 2rem;
+}
+
+.target-user{
+	text-align: center;
+}
+
+.target-user h1{
+	text-align: left;
+}
+
+.target-user p{
+	padding: 2rem;
+}
+
+.research{
+	padding: 3rem;
+}
+
+.process h1{
+	text-align: left;
+	padding: 1rem;
+}
+
+.process{
+	margin-top: -10rem;
+	display: grid;
+	place-items:center;
+	padding: 3rem;
+}
+
+.process p{
+	padding: 2rem;
+}
+
+.research{
+	padding: 1rem;
+}
+
+.wireframes-flow{
+	display: grid;
+	place-items:center;
+	padding: 1rem;
+}
+
+.visual-design{
+	display: grid;
+	place-items:center;
+	padding: 1rem;
+}
+
+.wireframes-flow img{
+	height: 600px;
+	padding: 2rem;
+}
+
+.visual-design img{
+	height: 480px;
+	padding: 2rem;
+}
+
+.prototype{
+	display: grid;
+	place-items:center;
+}
+
+.prototype video{
+	padding: 2rem;
+}
+
+.reflection h1{
+	text-align: left;
+}
+
+.reflection h2{
+	text-align: left;
+}
+
+.reflection p{
+padding: 2rem;
+}
+
+.reflection{
+	display: grid;
+	place-items:center;
+	padding: 3rem;
+}
+
+
